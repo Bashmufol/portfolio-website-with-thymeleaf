@@ -12,7 +12,7 @@ public class HomeController {
         model.addAttribute("title", "Home");
         return "master";
     }
-//Contact URL
+
     @GetMapping("/contact")
     public String showContactPage(Model model) {
         model.addAttribute("title", "Contact");
