@@ -25,7 +25,7 @@ public class HomeController {
         model.addAttribute("title", "Projects");
         return "master";
     }
-//    Resume URL
+
     @GetMapping("/resume")
     public String showResumePage(Model model) {
         model.addAttribute("title", "Resume");
