@@ -19,7 +19,6 @@ public class HomeController {
         return "master";
     }
 
-//    Projects URL
     @GetMapping("/projects")
     public String showProjectsPage(Model model) {
         model.addAttribute("title", "Projects");
